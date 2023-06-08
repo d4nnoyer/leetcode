@@ -2,10 +2,21 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=80e9ef0d_002D1658_002D4102_002D9661_002Dd4e74881b95b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::5E856B5E-98DF-4028-AD1B-E4D9DDF456F9::net7.0::SolutionsTests.Array.Easy.Remove_Duplicates_from_Sorted_Array_Test.Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5E856B5E-98DF-4028-AD1B-E4D9DDF456F9::net7.0::SolutionsTests.Array.Easy.Remove_Element_Tests.Test&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e0d58e89_002De4fb_002D41df_002Da998_002D59ab737676fd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::5E856B5E-98DF-4028-AD1B-E4D9DDF456F9::net7.0::SolutionsTests.Array.Easy.Remove_Duplicates_from_Sorted_Array_Test.Test&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::5E856B5E-98DF-4028-AD1B-E4D9DDF456F9::net7.0::SolutionsTests.Array.Easy.Remove_Duplicates_from_Sorted_Array_Test.Test&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::5E856B5E-98DF-4028-AD1B-E4D9DDF456F9::net7.0::SolutionsTests.Array.Easy.Remove_Element_Tests.Test&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::5E856B5E-98DF-4028-AD1B-E4D9DDF456F9::net7.0::SolutionsTests.Array.Easy.Search_Insert_Position_Test.Test&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::5E856B5E-98DF-4028-AD1B-E4D9DDF456F9::net7.0::SolutionsTests.Array.Easy.Merge_Sorted_Array_Test.Test&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::5E856B5E-98DF-4028-AD1B-E4D9DDF456F9::net7.0::SolutionsTests.Array.Easy.Pascal_s_Triangle_Test.Test&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::5E856B5E-98DF-4028-AD1B-E4D9DDF456F9::net7.0::SolutionsTests.Array.Easy.Best_Time_to_Buy_and_Sell_Stock_Test.Test&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;ProjectFile&gt;5E856B5E-98DF-4028-AD1B-E4D9DDF456F9/d:Array/d:Easy/f:66. Plus One Test.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;5E856B5E-98DF-4028-AD1B-E4D9DDF456F9/d:Array/d:Easy/f:88. Merge Sorted Array Test.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;5E856B5E-98DF-4028-AD1B-E4D9DDF456F9/d:Array/d:Easy/f:119. Pascal's Triangle II Test.cs&lt;/ProjectFile&gt;&#xD;
+  &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

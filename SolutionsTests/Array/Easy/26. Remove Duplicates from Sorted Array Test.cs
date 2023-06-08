@@ -1,13 +1,7 @@
-using Playground.Solutions.Array.Easy;
 
 namespace SolutionsTests.Array.Easy;
 
 internal sealed class Remove_Duplicates_from_Sorted_Array_Test {
-    
-    [SetUp]
-    public void Setup()
-    {
-    }
 
     [TestCase(new[]{1,1,2}, 2, new[]{1,2,0})]
     [TestCase(new[]{1,2,3}, 3, new[]{1,2,3})]
