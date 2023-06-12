@@ -47,7 +47,7 @@ public class ListNode {
             this.next = next;
     }
 
-    public static ListNode FromArray(int[] nums)
+    public static ListNode FromArray(params int[] nums)
     {
         var head = new ListNode(nums[0]);
         var currentNode = head;

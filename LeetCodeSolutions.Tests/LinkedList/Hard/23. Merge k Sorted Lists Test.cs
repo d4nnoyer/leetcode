@@ -11,8 +11,6 @@ public class Merge_k_Sorted_Lists_Test {
         Assert.That(mergedList.ToArray(), Is.EqualTo(result.ToArray()));
     }
     
-    //[[1,4,5],[1,3,4],[2,6]]
-    //[1,1,2,3,4,4,5,6]
     private static object[] _testCaseSource = {
         new object[] {new[]
         {
