@@ -1,3 +1,4 @@
+using LeetCodeSolutions.Shared.Model;
 using LeetCodeSolutions.Solutions.LinkedList.Hard;
 
 namespace LeetCodeSolutions.Solutions.LinkedList.Easy;

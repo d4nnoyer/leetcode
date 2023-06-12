@@ -1,3 +1,4 @@
+
 namespace LeetCodeSolutions.Tests.LinkedList.Easy;
 
 public class Intersection_of_Two_Linked_Lists__Test {
