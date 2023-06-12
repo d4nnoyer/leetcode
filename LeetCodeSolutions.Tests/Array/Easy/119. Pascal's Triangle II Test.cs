@@ -2,7 +2,7 @@ namespace LeetCodeSolutions.Tests.Array.Easy;
 
 public class Pascal_s_Triangle_II_Test {
     
-    [TestCaseSource(nameof(_triangles))]
+    [TestCaseSource(nameof(_testCaseSource))]
     public void Test(int numRows, IList<int> result) 
     {
         var triangles = Pascal_s_Triangle_II.GetRow(numRows);
@@ -10,7 +10,7 @@ public class Pascal_s_Triangle_II_Test {
         Assert.That(triangles, Is.EqualTo(result));
     }
     
-    private static object[] _triangles = {
+    private static object[] _testCaseSource = {
         new object[] {0, new List<int> {1}},
         new object[] {1, new List<int> {1,1}},
         new object[] {2, new List<int> {1,2,1}},
