@@ -8,7 +8,9 @@ public class Convert_Sorted_Array_to_Binary_Search_Tree_Test {
     {
         var tree = Convert_Sorted_Array_to_Binary_Search_Tree.SortedArrayToBST(nums);
 
-        Assert.That(tree, Is.EqualTo(treeResult));
+        var treeNodes = TreeNode.TraverseInOrder(tree);
+        var treeResultNodes = TreeNode.TraverseInOrder(treeResult);
+        Assert.That(treeNodes, Is.EqualTo(treeResultNodes));
     }
 
 

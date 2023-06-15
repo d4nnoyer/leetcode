@@ -10,14 +10,14 @@ public class TreeNode {
             this.right = right;
     }
 
-    public static IEnumerable<TreeNode> TraverseInOrder(TreeNode node)
+    public static IEnumerable<int> TraverseInOrder(TreeNode node)
     {
         if (node is not null)
         {
             foreach (var left in TraverseInOrder(node.left))
                 yield return left;
 
-            yield return node;
+            yield return node.val;
             
             foreach (var right in TraverseInOrder(node.right))
                 yield return right;
