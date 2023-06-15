@@ -8,5 +8,19 @@ public class TreeNode {
             this.val = val;
             this.left = left;
             this.right = right;
+    }
+
+    public static IEnumerable<TreeNode> TraverseInOrder(TreeNode node)
+    {
+        if (node is not null)
+        {
+            foreach (var left in TraverseInOrder(node.left))
+                yield return left;
+
+            yield return node;
+            
+            foreach (var right in TraverseInOrder(node.right))
+                yield return right;
         }
+    }
 }

@@ -5,3 +5,4 @@ global using LeetCodeSolutions.Solutions.LinkedList.Easy;
 global using LeetCodeSolutions.Shared.Model;
 global using LeetCodeSolutions.Solutions.LinkedList.Medium;
 global using LeetCodeSolutions.Solutions.Array.Medium;
+global using LeetCodeSolutions.Solutions.Tree.Easy;

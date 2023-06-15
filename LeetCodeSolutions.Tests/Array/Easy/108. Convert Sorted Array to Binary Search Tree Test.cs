@@ -2,7 +2,7 @@ namespace LeetCodeSolutions.Tests.Array.Easy;
 
 public class Convert_Sorted_Array_to_Binary_Search_Tree_Test {
     
-    //TODO: overrride equality comparer for TreeNode
+    //TODO: override equality comparer for TreeNode
     [TestCaseSource(nameof(_testCaseSource))]
     public void Test(int[] nums, TreeNode treeResult)
     {

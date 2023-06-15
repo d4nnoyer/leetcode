@@ -1,3 +1,5 @@
+using LeetCodeSolutions.Shared.Model;
+
 namespace LeetCodeSolutions.Solutions.Array.Easy;
 
 public class Convert_Sorted_Array_to_Binary_Search_Tree {
@@ -22,17 +24,4 @@ public class Convert_Sorted_Array_to_Binary_Search_Tree {
         };
     }
 
-}
-
-public class TreeNode {
-         
-    public int val;
-    public TreeNode left;
-    public TreeNode right;
-         
-    public TreeNode(int val=0, TreeNode left=null, TreeNode right=null) {
-        this.val = val;
-        this.left = left;
-        this.right = right; 
-    }
 }
