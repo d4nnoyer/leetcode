@@ -7,3 +7,4 @@ global using LeetCodeSolutions.Solutions.LinkedList.Medium;
 global using LeetCodeSolutions.Solutions.Array.Medium;
 global using LeetCodeSolutions.Solutions.Tree.Easy;
 global using LeetCodeSolutions.Solutions.HashTable.Easy;
+global using LeetCodeSolutions.Solutions.String.Easy;
