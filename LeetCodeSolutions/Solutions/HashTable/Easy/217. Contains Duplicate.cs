@@ -8,13 +8,7 @@ public class Contains_Duplicate {
             return false;
 
         var set = new HashSet<int>();
-        foreach (var t in nums)
-        {
-            if (set.Contains(t)) return true;
-            set.Add(t);
-        }
-
-        return false;
+        return nums.Any(t => !set.Add(t));
     }
 }
 

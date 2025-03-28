@@ -5,19 +5,11 @@ public class Group_Anagrams {
     public static IList<IList<string>> GroupAnagrams(string[] strs)
     {
         var anagramGroups = new SortedList<int, IList<string>>();
-        
-        int GetArrayHash(string s)
-        {
-            var counts = new int[26];
-            foreach (var c in s.ToCharArray())
-                counts[c - 'a']++;
-
-            return  counts.Aggregate(0, HashCode.Combine);
-        }
+        Span<int> charCountarr = stackalloc int[26];
 
         foreach (var str in strs)
         {
-            var hash = GetArrayHash(str);
+            var hash = GetArrayHash(str, charCountarr);
             if (anagramGroups.TryGetValue(hash, out var anagramGroup))
             {
                 anagramGroup.Add(str);
@@ -31,4 +23,19 @@ public class Group_Anagrams {
         return anagramGroups.Values;
     }
     
+    private static int GetArrayHash(string s, Span<int> charCountarr)
+    {
+        charCountarr.Clear();
+
+        foreach (var c in s)
+            charCountarr[c - 'a']++;
+            
+        var hash = 0;
+        foreach (var count in charCountarr)
+        {
+            hash = HashCode.Combine(count, hash);
+        }
+
+        return  hash;
+    }
 }
