@@ -10,12 +10,12 @@ public class Contains_Duplicate_Test {
         Assert.That(isWithDuplicate, Is.EqualTo(result));
     }
 
-
     private static object[] _testCaseSource;
 
     static Contains_Duplicate_Test()
     {
-        _testCaseSource = new object[] {
+        _testCaseSource =
+        [
             new object[]
             {
                 new[]{1,2,3,4,2},
@@ -25,8 +25,8 @@ public class Contains_Duplicate_Test {
             {
                 new[]{1,2,3,4},
                 false
-            },
-        };
+            }
+        ];
     }
     
 }
