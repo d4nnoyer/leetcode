@@ -15,7 +15,7 @@ public class Invert_Binary_Tree_Test
 
 
     private static object[] _testCaseSource =
-    {
+    [
         new object[]
         {
             new TreeNode(0)
@@ -40,8 +40,7 @@ public class Invert_Binary_Tree_Test
                     left = new TreeNode(-3)
                 },
             },
-        },
-       
-    };
+        }
+    ];
     
 }
