@@ -14,6 +14,16 @@ public class Lowest_Common_Ancestor_of_Deepest_Leaves_Test {
         Assert.That(lca.right?.val, Is.EqualTo(result.right?.val));
     }
     
+    [TestCaseSource(nameof(_testCaseSource))]
+    public void Test2(TreeNode root, TreeNode result)
+    {
+        var lca = Smallest_Subtree_with_all_the_Deepest_Nodes.SubtreeWithAllDeepest(root);
+
+        Assert.That(lca.val, Is.EqualTo(result.val));
+        Assert.That(lca.left?.val, Is.EqualTo(result.left?.val));
+        Assert.That(lca.right?.val, Is.EqualTo(result.right?.val));
+    }
+    
     private static object[] _testCaseSource =
     [
         new object[]
