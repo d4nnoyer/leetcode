@@ -1,4 +1,4 @@
-namespace LeetCodeSolutions.Solutions.Math.Easy;
+namespace LeetCodeSolutions.Solutions.BitManipulation.Easy;
 
 public class Sum_of_All_Subset_XOR_Totals {
     public static int SubsetXORSum(int[] nums)

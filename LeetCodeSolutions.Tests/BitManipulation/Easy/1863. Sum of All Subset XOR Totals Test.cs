@@ -1,6 +1,6 @@
-using LeetCodeSolutions.Solutions.Math.Easy;
+using LeetCodeSolutions.Solutions.BitManipulation.Easy;
 
-namespace LeetCodeSolutions.Tests.Math.Easy;
+namespace LeetCodeSolutions.Tests.BitManipulation.Easy;
 
 public class Sum_of_All_Subset_XOR_Totals_Test {
     
