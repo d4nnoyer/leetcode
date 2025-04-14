@@ -1,6 +1,6 @@
-using LeetCodeSolutions.Solutions;
+using LeetCodeSolutions.Solutions.Mathematics.Easy;
 
-namespace LeetCodeSolutions.Tests;
+namespace LeetCodeSolutions.Tests.Mathematics.Easy;
 
 public class Count_Symmetric_Integers_Test {
     

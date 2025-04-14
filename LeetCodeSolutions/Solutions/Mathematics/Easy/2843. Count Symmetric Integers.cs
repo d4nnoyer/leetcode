@@ -1,4 +1,4 @@
-namespace LeetCodeSolutions.Solutions;
+namespace LeetCodeSolutions.Solutions.Mathematics.Easy;
 
 public class Count_Symmetric_Integers {
     
